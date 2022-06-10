@@ -2,7 +2,7 @@
 function App() {
   return (
     <div>
-      logo
+        <h1 className="text-xl">Hello</h1>
     </div>
   );
 }
