@@ -1,3 +1,18 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@import url('https://fonts.googleapis.com/css2?family=Bellefair&family=Lato:wght@300;400;700&display=swap');
+
+
+@layer base {
+    body {
+        @apply font-[Bellefair];
+        @apply bg-[#0b0d17]
+    }
+
+    li {
+        @apply px-4;
+        @apply list-none
+    }
+}
