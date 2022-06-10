@@ -21,3 +21,11 @@
 .condensed {
     font-family: 'Barlow Condensed', sans-serif
 }
+
+
+.home {
+    background-image: url(./assets/home/background-home-desktop.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
