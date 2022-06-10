@@ -8,7 +8,7 @@ const Navbar = () => {
     const handleNav = () => setNav(!nav)
 
   return (
-    <div className='absolute px-[24px] w-full top-0 left-0  md:pl-[24px] md:pr-0 flex justify-between items-center lg:mt-[40px] h-[96px] condensed'>
+    <div className='absolute px-[24px] w-full top-0 left-0  md:pl-[24px] lg:pl-[55px] md:pr-0 flex justify-between items-center lg:mt-[40px] h-[96px] condensed'>
        <div>
            <img src={Logo} alt="logo svg" style={{width: '48px'}}/>
        </div>
@@ -28,7 +28,7 @@ const Navbar = () => {
 
         {/* mobile menu */}
 
-       <ul className={!nav ? 'hidden' : 'absolute top-0 right-0 w-[264px] h-screen backdrop-blur-lg bg-white/30 flex flex-col items-start text-white pt-[112px] pl-[20px] duration-300'}>
+       <ul className={!nav ? 'hidden' : 'absolute top-0 right-0 w-[264px] h-screen backdrop-blur-lg bg-white/30 flex flex-col items-start text-white pt-[112px] pl-[20px]'}>
            <li className='py-4 cursor-pointer'><span className='font-bold'>00 </span>HOME</li>
            <li className='py-4 cursor-pointer'><span className='font-bold'>01 </span>DESTINATION</li>
            <li className='py-4 cursor-pointer'><span className='font-bold'>02 </span>CREW</li>
