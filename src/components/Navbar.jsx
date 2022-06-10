@@ -8,17 +8,17 @@ const Navbar = () => {
     const handleNav = () => setNav(!nav)
 
   return (
-    <div className='w-full top-0 left-0  px-[24px] flex justify-between items-center md:mt-[40px] h-[96px] overflow-hidden'>
+    <div className='absolute px-[24px] w-full top-0 left-0  md:pl-[24px] md:pr-0 flex justify-between items-center md:mt-[40px] h-[96px] condensed'>
        <div>
-           <img src={Logo} alt="logo svg" />
+           <img src={Logo} alt="logo svg" style={{width: '48px'}}/>
        </div>
 
         {/* menu */}
-       <ul className='hidden md:flex text-white '>
-           <li><span className='font-bold'>00 </span>HOME</li>
-           <li><span className='font-bold'>01 </span>DESTINATION</li>
-           <li><span className='font-bold'>02 </span>CREW</li>
-           <li><span className='font-bold'>03 </span>TECHNOLOGY</li>
+       <ul className='hidden md:flex text-white h-[96px] backdrop-blur-sm bg-white/30 items-center lg:px-[140px]'>
+           <li className='cursor-pointer'><span className='font-bold'>00 </span>HOME</li>
+           <li className='cursor-pointer'><span className='font-bold'>01 </span>DESTINATION</li>
+           <li className='cursor-pointer'><span className='font-bold'>02 </span>CREW</li>
+           <li className='cursor-pointer'><span className='font-bold'>03 </span>TECHNOLOGY</li>
        </ul>
 
        {/* hamburger menu */}
@@ -28,11 +28,11 @@ const Navbar = () => {
 
         {/* mobile menu */}
 
-       <ul className={!nav ? 'hidden' : 'absolute top-0 right-0 w-[264px] h-screen bg-red-100 flex flex-col items-start text-white pt-[112px] pl-[20px]'}>
-           <li className='py-4'><span className='font-bold'>00 </span>HOME</li>
-           <li className='py-4'><span className='font-bold'>01 </span>DESTINATION</li>
-           <li className='py-4'><span className='font-bold'>02 </span>CREW</li>
-           <li className='py-4'><span className='font-bold'>03 </span>TECHNOLOGY</li>
+       <ul className={!nav ? 'hidden' : 'absolute top-0 right-0 w-[264px] h-screen backdrop-blur-sm bg-white/30 flex flex-col items-start text-white pt-[112px] pl-[20px] duration-300'}>
+           <li className='py-4 cursor-pointer'><span className='font-bold'>00 </span>HOME</li>
+           <li className='py-4 cursor-pointer'><span className='font-bold'>01 </span>DESTINATION</li>
+           <li className='py-4 cursor-pointer'><span className='font-bold'>02 </span>CREW</li>
+           <li className='py-4 cursor-pointer'><span className='font-bold'>03 </span>TECHNOLOGY</li>
        </ul>
 
     </div>
