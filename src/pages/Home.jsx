@@ -15,7 +15,7 @@ const Home = () => {
                 </p>
             </div>
             <div className='flex justify-center lg:items-end lg:pb-[140px]'>
-                <div className='flex justify-center items-center text-black uppercase w-[150px] h-[150px] mx-auto bg-white rounded-full md:h-[242px] md:w-[242px] md:text-4xl'>
+                <div className='pulse flex justify-center items-center text-black uppercase w-[150px] h-[150px] mx-auto bg-white rounded-full md:h-[242px] md:w-[242px] md:text-4xl'>
                     <a href="#">explore</a>
                 </div>
             </div>
