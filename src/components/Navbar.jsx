@@ -17,7 +17,7 @@ const Navbar = () => {
         {/* menu */}
        <ul className='hidden md:flex text-white h-[96px] backdrop-blur-sm bg-white/30 items-center lg:px-[140px]'>
            <li className='cursor-pointer hover:underline underline-offset-[37px] decoration-[3px]'><Link to='/'><span className='font-bold'>00 </span>HOME</Link></li>
-           <li className='cursor-pointer hover:underline underline-offset-[37px] decoration-[3px]'><span className='font-bold'>01 </span>DESTINATION</li>
+           <li className='cursor-pointer hover:underline underline-offset-[37px] decoration-[3px]'><Link to='/destinations'><span className='font-bold'>01 </span>DESTINATION</Link></li>
            <li className='cursor-pointer hover:underline underline-offset-[37px] decoration-[3px]'><span className='font-bold'>02 </span>CREW</li>
            <li className='cursor-pointer hover:underline underline-offset-[37px] decoration-[3px]'><span className='font-bold'>03 </span>TECHNOLOGY</li>
        </ul>
