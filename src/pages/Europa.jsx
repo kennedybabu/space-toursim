@@ -10,7 +10,7 @@ const Europa = () => {
 
   return (  
 
-        <div className='destinations w-full h-screen text-white'>
+    <div className='destinations w-full h-screen text-white'>
         {/* container */}
         <div className='grid lg:grid-cols-2 h-full px-[24px] md:px-[96px]'>
             <div className='h-full flex justify-center  lg:justify-center items-center flex-col w-full mt-[60px] lg:mt-0 '>
@@ -20,7 +20,7 @@ const Europa = () => {
                 </div>
             </div>
             <div className='h-full flex justify-end  lg:pb-[118px] items-center lg:items-start flex-col md:pb-[62px] lg:h-[445px] lg:absolute lg:right-[162px] lg:bottom-0 lg:justify-between'>
-                <div className='flex '>                   
+                <div className='flex text-[#d0d6f9] uppercase'>                   
                     <li className='hover:underline underline-offset-[10px] decoration-[3px] pl-0'><Link to='/destinations'>Moon</Link></li>
                     <li className='hover:underline underline-offset-[10px] decoration-[3px]'><Link to='/mars'>Mars</Link></li>
                     <li className='hover:underline underline-offset-[10px] decoration-[3px]'><Link to='/europa'>Europa</Link></li>
@@ -43,7 +43,7 @@ const Europa = () => {
                 </div>
             </div>
         </div>
-        </div>
+    </div>
   )
 }
 

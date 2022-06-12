@@ -50,7 +50,9 @@
 }
 
 .destinations,
-.europa  {
+.europa,
+.mars, 
+.titan  {
     background-image: url(./assets/destination/background-destination-desktop.jpg);
     background-position: center;
     background-size: cover;

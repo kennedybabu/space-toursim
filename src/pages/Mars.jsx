@@ -1,19 +1,12 @@
-import React, { useEffect, useState } from 'react'
+import React from 'react'
 import {data} from '../components/data/data'
-import { Link } from 'react-router-dom'
+import { Link, NavLink } from 'react-router-dom'
 
-const Destinations = () => {
-    // store data from json file
+const Mars = () => {
     const destinations = data.destinations
-    console.log(data.destinations)
 
-    // get a destination
-    // const destination = destinations[Math.floor(Math.random() * destinations.length)]
-    const destination =destinations[0]
-    
-    console.log(destination.images.png)
-    
- 
+    const destination = destinations[1]
+
   return (
     <div className='destinations w-full h-screen text-white'>
         {/* container */}
@@ -21,7 +14,7 @@ const Destinations = () => {
             <div className='h-full flex justify-center  lg:justify-center items-center flex-col w-full mt-[60px] lg:mt-0 '>
                 <p className='lg:mt-[80px] condensed uppercase font-bold lg:text-[24px]'><span className='text-gray-400 mr-2'>01</span>Pick your destination</p>
                 <div className='h-[170px] w-[170px] mt-[32px]  md:h-[300px] md:w-[300px] lg:h-[445px] lg:w-[445px] lg:mt-[40px]'>
-                    <img className='h-full w-full' src={require ('../assets/destination/image-moon.png')} alt="" />
+                    <img className='h-full w-full' src={require ('../assets/destination/image-mars.png')} alt="" />
                 </div>
             </div>
             <div className='h-full flex justify-end  lg:pb-[118px] items-center lg:items-start flex-col md:pb-[62px] lg:h-[445px] lg:absolute lg:right-[162px] lg:bottom-0 lg:justify-between'>
@@ -52,4 +45,4 @@ const Destinations = () => {
   )
 }
 
-export default Destinations
+export default Mars
