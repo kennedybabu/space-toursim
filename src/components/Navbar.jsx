@@ -30,7 +30,7 @@ const Navbar = () => {
 
         {/* mobile menu */}
 
-       <ul className={!nav ? 'hidden' : 'absolute top-0 right-0 w-[264px] h-screen backdrop-blur-lg bg-white/30 flex flex-col items-start text-white pt-[112px] pl-[20px]'}>
+       <ul className={!nav ? 'hidden' : 'absolute top-0 right-0 w-[264px] h-screen backdrop-blur-lg bg-white/30 flex flex-col items-start text-white pt-[112px] pl-[20px] z-[2]'}>
            <li className='py-4 cursor-pointer'><Link to='/'><span className='font-bold'>00 </span>HOME</Link></li>
            <li className='py-4 cursor-pointer'><Link to='/destinations'><span className='font-bold'>01 </span>DESTINATION</Link></li>
            <li className='py-4 cursor-pointer'><Link to='/crew'><span className='font-bold'>02 </span>CREW</Link></li>
