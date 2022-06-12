@@ -25,13 +25,13 @@ const Specialist = () => {
                         <li className='hover:underline underline-offset-[10px] decoration-[3px] pl-0'><Link to='/crew'>Commander</Link></li>
                         <li className='hover:underline underline-offset-[10px] decoration-[3px]'><Link to='/specialist'>Mission Specialist</Link></li>
                         <li className='hover:underline underline-offset-[10px] decoration-[3px]'><Link to='/pilot'>Pilot</Link></li>
-                        <li className='hover:underline underline-offset-[10px] decoration-[3px]'><Link to='/titan'>Flight Engineer</Link></li>
+                        <li className='hover:underline underline-offset-[10px] decoration-[3px]'><Link to='/engineer'>Flight Engineer</Link></li>
                     </div>
                     <div className='flex items-center justify-center w-full md:hidden condensed'>
                         <li><Link to='/crew'>01</Link></li>
                         <li><Link to='/specialist'>02</Link></li>
                         <li><Link to='/pilot'>03</Link></li>
-                        <li><Link to='/crew'>04</Link></li>
+                        <li><Link to='/engineer'>04</Link></li>
                     </div>
                 </div>
                 <p className='uppercase text-gray-400 md:text-2xl'>{personnel.role}</p>

@@ -8,6 +8,7 @@ import Titan from "./pages/Titan";
 import Crew from "./pages/crew/Crew";
 import Pilot from "./pages/crew/Pilot";
 import Specialist from "./pages/crew/Specialist";
+import Engineer from "./pages/crew/Engineer";
 
 function App() {
   return (
@@ -22,6 +23,7 @@ function App() {
         <Route path='/crew' element={<Crew />} />
         <Route path='/pilot' element={<Pilot />} />
         <Route path='/specialist' element={<Specialist />} />
+        <Route path='/engineer' element={<Engineer />} />
       </Routes>
     </>
   );

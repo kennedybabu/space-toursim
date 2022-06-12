@@ -2,17 +2,18 @@ import React from 'react'
 import { data } from '../../components/data/data'
 import { Link } from 'react-router-dom'
 
-const Pilot = () => {
+const Engineer = () => {
     const crew = data.crew
-    const personnel = crew[2]
+    const personnel = crew[3]
+
   return (
     <div className='w-full h-screen text-white crew overflow-y-hidden'>
     {/* container */}
     <div className='h-full w-full grid lg:grid-cols-2'>
-        <p className='absolute top-[78px] md:top-[140px] left-1/2 -translate-x-1/2 text-xl condensed uppercase tracking-[2px] md:left-[120px] lg:left-[230px]'><span className='text-gray-400'>02</span> meet your crew</p>
+        <p className='absolute top-[85px] md:top-[140px] left-1/2 -translate-x-1/2 text-xl condensed uppercase tracking-[2px] md:left-[120px] lg:left-[230px]'><span className='text-gray-400'>02</span> meet your crew</p>
         <div className='flex flex-col justify-end w-full items-center md:order-2 lg:order-2'>
           <div className='h-[223px] w-[327px] md:h-[572px] md:w-[456px] mx-auto lg:h-[598px] lg:w-[468px]'>
-            <img className='h-full w-auto  md:w-full mx-auto lg:w-auto lg:mt-[20px]'  src={require('../../assets/crew/image-victor-glover.png')} alt="commander picture" />
+            <img className='h-full w-auto  md:w-full mx-auto lg:w-auto lg:mt-[20px]'  src={require('../../assets/crew/image-anousheh-ansari.png')} alt="commander picture" />
           </div>
           <div>
               <hr />
@@ -44,4 +45,4 @@ const Pilot = () => {
   )
 }
 
-export default Pilot
+export default Engineer
