@@ -1,23 +1,19 @@
 import React from 'react'
-import {data} from '../../components/data/data'
+import { data } from '../../components/data/data'
 import { Link } from 'react-router-dom'
 
-
-
-const Crew = () => {
+const Specialist = () => {
     const crew = data.crew
-
-    const personnel = crew[0]
-
-    
+    const personnel = crew[1]
   return (
+    
     <div className='w-full h-screen text-white crew overflow-y-hidden'>
         {/* container */}
         <div className='h-full w-full grid lg:grid-cols-2'>
             <p className='absolute top-[85px] md:top-[140px] left-1/2 -translate-x-1/2 text-xl condensed uppercase tracking-[2px] md:left-[120px] lg:left-[230px]'><span className='text-gray-400'>02</span> meet your crew</p>
             <div className='flex flex-col justify-end w-full items-center md:order-2 lg:order-2'>
               <div className='h-[223px] w-[327px] md:h-[572px] md:w-[456px] mx-auto lg:h-[598px] lg:w-[468px]'>
-                <img className='h-full w-auto  md:w-full mx-auto lg:w-auto lg:mt-[20px]'  src={require('../../assets/crew/image-douglas-hurley.png')} alt="commander picture" />
+                <img className='h-full w-auto  md:w-full mx-auto lg:w-auto lg:mt-[20px]'  src={require('../../assets/crew/image-mark-shuttleworth.png')} alt="commander picture" />
               </div>
               <div>
                   <hr />
@@ -28,7 +24,7 @@ const Crew = () => {
                     <div className='hidden md:flex'>
                         <li className='hover:underline underline-offset-[10px] decoration-[3px] pl-0'><Link to='/crew'>Commander</Link></li>
                         <li className='hover:underline underline-offset-[10px] decoration-[3px]'><Link to='/specialist'>Mission Specialist</Link></li>
-                        <li className='hover:underline underline-offset-[10px] decoration-[3px]'><Link to='/pilot'>Pilot</Link></li>
+                        <li className='hover:underline underline-offset-[10px] decoration-[3px]'><Link to='/europa'>Pilot</Link></li>
                         <li className='hover:underline underline-offset-[10px] decoration-[3px]'><Link to='/titan'>Flight Engineer</Link></li>
                     </div>
                     <div className='flex items-center justify-center w-full md:hidden condensed'>
@@ -49,4 +45,4 @@ const Crew = () => {
   )
 }
 
-export default Crew
+export default Specialist
