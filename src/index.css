@@ -56,3 +56,8 @@
     background-size: cover;
     background-repeat: no-repeat;
 }
+
+
+.page-nav-active {
+    color: tomato;
+}

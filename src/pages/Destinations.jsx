@@ -25,8 +25,11 @@ const Destinations = () => {
                 </div>
             </div>
             <div className='h-full flex justify-end  lg:pb-[118px] items-center lg:items-start flex-col md:pb-[62px] lg:h-[445px] lg:absolute lg:right-[162px] lg:bottom-0 lg:justify-between'>
-                <div>
-                   <li><Link to='/europa'>Europa</Link></li>
+                <div className='flex '>                   
+                    <li className='hover:underline underline-offset-[10px] decoration-[3px] pl-0'><Link to='/destinations'>Moon</Link></li>
+                    <li className='hover:underline underline-offset-[10px] decoration-[3px]'><Link to='/mars'>Mars</Link></li>
+                    <li className='hover:underline underline-offset-[10px] decoration-[3px]'><Link to='/europa'>Europa</Link></li>
+                    <li className='hover:underline underline-offset-[10px] decoration-[3px]'><Link to='/titan'>Titan</Link></li>
                 </div>
                 <h1 className='text-[50px] uppercase'>{destination.name}</h1>
                 <p className='text-center lg:text-left text-[#d0d6f9] lg:max-w-[472px]'>{destination.description}</p>
@@ -34,9 +37,9 @@ const Destinations = () => {
                     <hr />
                 </div>
                 <div className='flex flex-col md:flex-row w-full justify-between md:px-[100px] lg:px-0 lg:justify-start lg:mt-8'>
-                    <div className='flex flex-col items-center lg:mr-8'>
+                    <div className='flex flex-col items-center lg:mr-8 lg:items-start'>
                         <p className='uppercase condensed text-[#d0d6f9]'>Avg Distance</p>
-                        <p className='text-3xl'>{destination.distance}</p>
+                        <p className='text-3xl uppercase'>{destination.distance}</p>
                     </div>
                     <div className='flex flex-col items-center mt-[32px] md:mt-0'>
                         <p className='uppercase condensed text-[#d0d6f9]'>Est Travel Time</p>
