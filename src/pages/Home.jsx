@@ -8,7 +8,7 @@ const Home = () => {
             <div className='flex flex-col justify-center items-center lg:items-start lg:px-[159px] md:text-left pt-[48px]'>
                 <p className='text-[24px] md:mt-[106px] md:text-[32px] uppercase text-[#d0d6f9] condensed'>so, you want to travel to</p>
                 <h1 className='uppercase text-white text-[52px]  md:text-[140px]'>Space</h1>
-                <p className='text-white max-w-[327px] text-center lg:text-start condensed text-[18px] tracking-wide md:max-w-[450px]'>Let's face it, if you want to go to space, you might as well
+                <p className='text-[#d0d6f9] max-w-[327px] text-center lg:text-start condensed text-[18px] tracking-wide md:max-w-[450px]'>Let's face it, if you want to go to space, you might as well
                     genuinely go outer space and not hover kind of on the edge
                     of it. Well sit back, and relax because we'll give you a 
                     truly out of this world experience!.
