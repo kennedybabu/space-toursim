@@ -16,7 +16,7 @@ const Destinations = () => {
         {/* container */}
         <div className='grid lg:grid-cols-2 h-full px-[24px] md:px-[96px]'>
             <div className='h-full flex justify-center  lg:justify-center items-center flex-col w-full  mt-[40px] md:mt-[60px] lg:mt-0 '>
-                <p className='lg:mt-[80px] condensed uppercase font-bold lg:text-[24px]'><span className='text-gray-400 mr-2'>01</span>Pick your destination</p>
+                <p className='lg:mt-[80px] condensed uppercase tracking-wide lg:text-[24px]'><span className='text-gray-400 mr-2'>01</span>Pick your destination</p>
                 <div className='h-[170px] w-[170px] mt-[10px] md:mt-[100px] md:h-[300px] md:w-[300px] lg:h-[445px] lg:w-[445px] lg:mt-[40px]'>
                     <img className='h-full w-full' src={require ('../assets/destination/image-moon.png')} alt="" />
                 </div>

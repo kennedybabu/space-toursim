@@ -6,6 +6,7 @@ import Europa from "./pages/Europa";
 import Mars from "./pages/Mars";
 import Titan from "./pages/Titan";
 import Crew from "./pages/crew/Crew";
+import Pilot from "./pages/crew/Pilot";
 
 function App() {
   return (
@@ -18,6 +19,7 @@ function App() {
         <Route path='/mars' element={<Mars />} />
         <Route path='/titan' element={<Titan />} />
         <Route path='/crew' element={<Crew />} />
+        <Route path='/pilot' element={<Pilot />} />
       </Routes>
     </>
   );
