@@ -60,6 +60,9 @@
 }
 
 
-.page-nav-active {
-    color: tomato;
+.crew {
+    background-image: url('./assets/crew/background-crew-desktop.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
 }
