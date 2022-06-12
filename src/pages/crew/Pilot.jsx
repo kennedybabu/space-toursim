@@ -22,14 +22,14 @@ const Pilot = () => {
             <div className='flex text-[#d0d6f9] uppercase md:mb-8'>                   
                 <div className='hidden md:flex'>
                     <li className='hover:underline underline-offset-[10px] decoration-[3px] pl-0'><Link to='/crew'>Commander</Link></li>
-                    <li className='hover:underline underline-offset-[10px] decoration-[3px]'><Link to='/mars'>Mission Specialist</Link></li>
+                    <li className='hover:underline underline-offset-[10px] decoration-[3px]'><Link to='/specialist'>Mission Specialist</Link></li>
                     <li className='hover:underline underline-offset-[10px] decoration-[3px]'><Link to='/pilot'>Pilot</Link></li>
                     <li className='hover:underline underline-offset-[10px] decoration-[3px]'><Link to='/titan'>Flight Engineer</Link></li>
                 </div>
                 <div className='flex items-center justify-center w-full md:hidden condensed'>
                     <li><Link to='/crew'>01</Link></li>
-                    <li><Link to='/crew'>02</Link></li>
-                    <li><Link to='/crew'>03</Link></li>
+                    <li><Link to='/specialist'>02</Link></li>
+                    <li><Link to='/pilot'>03</Link></li>
                     <li><Link to='/crew'>04</Link></li>
                 </div>
             </div>

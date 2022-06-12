@@ -24,7 +24,7 @@ const Specialist = () => {
                     <div className='hidden md:flex'>
                         <li className='hover:underline underline-offset-[10px] decoration-[3px] pl-0'><Link to='/crew'>Commander</Link></li>
                         <li className='hover:underline underline-offset-[10px] decoration-[3px]'><Link to='/specialist'>Mission Specialist</Link></li>
-                        <li className='hover:underline underline-offset-[10px] decoration-[3px]'><Link to='/europa'>Pilot</Link></li>
+                        <li className='hover:underline underline-offset-[10px] decoration-[3px]'><Link to='/pilot'>Pilot</Link></li>
                         <li className='hover:underline underline-offset-[10px] decoration-[3px]'><Link to='/titan'>Flight Engineer</Link></li>
                     </div>
                     <div className='flex items-center justify-center w-full md:hidden condensed'>
