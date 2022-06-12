@@ -4,6 +4,7 @@ import { Route , Routes} from 'react-router-dom'
 import Destinations from "./pages/Destinations";
 import Europa from "./pages/Europa";
 import Mars from "./pages/Mars";
+import Titan from "./pages/Titan";
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
         <Route path='/destinations' element={<Destinations />} />
         <Route path='/europa' element={<Europa />} />
         <Route path='/mars' element={<Mars />} />
+        <Route path='/titan' element={<Titan />} />
       </Routes>
     </>
   );
