@@ -5,14 +5,10 @@ import { Link } from 'react-router-dom'
 const Destinations = () => {
     // store data from json file
     const destinations = data.destinations
-    console.log(data.destinations)
 
     // get a destination
     // const destination = destinations[Math.floor(Math.random() * destinations.length)]
-    const destination =destinations[0]
-    
-    console.log(destination.images.png)
-    
+    const destination =destinations[0]    
  
   return (
    
