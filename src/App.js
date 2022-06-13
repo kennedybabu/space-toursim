@@ -10,6 +10,7 @@ import Pilot from "./pages/crew/Pilot";
 import Specialist from "./pages/crew/Specialist";
 import Engineer from "./pages/crew/Engineer";
 import Technologies from "./pages/techs/Technologies";
+import Spaceport from "./pages/techs/Spaceport";
 
 function App() {
   return (
@@ -26,6 +27,7 @@ function App() {
         <Route path='/specialist' element={<Specialist />} />
         <Route path='/engineer' element={<Engineer />} />
         <Route path='/technologies' element={<Technologies />} />
+        <Route path='/spaceport' element={<Spaceport />} />
       </Routes>
     </>
   );

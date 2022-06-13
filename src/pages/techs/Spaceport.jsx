@@ -2,16 +2,16 @@ import React from 'react'
 import { data } from '../../components/data/data'
 import { Link } from 'react-router-dom'
 
-const Technologies = () => {
-  const techs = data.technology
-  const tech = techs[0]
-
+const Spaceport = () => {
+    const techs = data.technology
+    const tech = techs[1]
+  
   return (
     <div className='w-full h-screen text-white technologies overflow-y-hidden'>
       {/* container */}
       <div className='h-full w-full grid  text-center lg:grid-cols-2'>
         <p className='condensed text-xl uppercase absolute left-1/2 -translate-x-1/2 top-[90px] md:top-[130px] md:left-[110px] lg:left-[10%]'><span className='text-gray-400 mr-4'>03</span>Space launch 101</p>
-        <div className='relative w-full h-[170px] mt-[160px] cover md:h-[310px] md:mt-[200px] lg:order-2 lg:h-[527px] lg:w-[515px] lg:absolute lg:right-0 lg:bottom-[20px]'>
+        <div className='relative w-full h-[170px] mt-[160px] spaceport md:h-[310px] md:mt-[200px] lg:order-2 lg:h-[527px] lg:w-[515px] lg:absolute lg:right-0 lg:bottom-[20px]'>
 
           <div className='flex items-center justify-center my-4 absolute bottom-[-100px] md:bottom-[-12px] left-1/2 -translate-x-1/2 lg:hidden'>
               <li className='cursor-pointer h-[40px] w-[40px] md:h-[50px] md:w-[50px]  rounded-full bg-white text-black flex items-center m-2 justify-center'><Link to='/technologies'>1</Link></li>
@@ -38,4 +38,4 @@ const Technologies = () => {
   )
 }
 
-export default Technologies
+export default Spaceport
