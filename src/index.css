@@ -66,3 +66,11 @@
     background-position: center;
     background-repeat: no-repeat;
 }
+
+
+.technologies {
+    background-image: url('./assets/technology/background-technology-desktop.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}

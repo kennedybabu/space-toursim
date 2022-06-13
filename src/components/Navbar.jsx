@@ -20,7 +20,7 @@ const Navbar = () => {
            <li className='cursor-pointer hover:underline underline-offset-[37px] decoration-[3px]'><Link to='/'><span className='font-bold'>00 </span>HOME</Link></li>
            <li className='cursor-pointer hover:underline underline-offset-[37px] decoration-[3px]'><Link to='/destinations'><span className='font-bold'>01 </span>DESTINATION</Link></li>
            <li className='cursor-pointer hover:underline underline-offset-[37px] decoration-[3px]'><Link to='/crew'><span className='font-bold'>02 </span>CREW</Link></li>
-           <li className='cursor-pointer hover:underline underline-offset-[37px] decoration-[3px]'><span className='font-bold'>03 </span>TECHNOLOGY</li>
+           <li className='cursor-pointer hover:underline underline-offset-[37px] decoration-[3px]'><Link to='/technologies'><span className='font-bold'>03 </span>TECHNOLOGY</Link></li>
        </ul>
 
        {/* hamburger menu */}
@@ -34,7 +34,7 @@ const Navbar = () => {
            <li className='py-4 cursor-pointer'><Link to='/'><span className='font-bold'>00 </span>HOME</Link></li>
            <li className='py-4 cursor-pointer'><Link to='/destinations'><span className='font-bold'>01 </span>DESTINATION</Link></li>
            <li className='py-4 cursor-pointer'><Link to='/crew'><span className='font-bold'>02 </span>CREW</Link></li>
-           <li className='py-4 cursor-pointer'><span className='font-bold'>03 </span>TECHNOLOGY</li>
+           <li className='py-4 cursor-pointer'><Link to='/technologies'><span className='font-bold'>03 </span>TECHNOLOGY</Link></li>
        </ul>
 
     </div>
