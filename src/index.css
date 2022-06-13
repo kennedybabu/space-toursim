@@ -80,16 +80,23 @@
     background-image: url('./assets/technology/image-launch-vehicle-landscape.jpg');
     background-size: cover;
     background-position: center;
+    background-repeat: no-repeat;
 }
 
 
 .spaceport {
     background-image:  url('./assets/technology/image-spaceport-landscape.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
 }
 
 
 .capsule {
     background-image:  url('./assets/technology/image-space-capsule-landscape.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
 
 }
 

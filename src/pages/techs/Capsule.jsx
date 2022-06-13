@@ -13,9 +13,9 @@ const Capsule = () => {
       <div className='relative w-full h-[170px] mt-[160px] capsule md:h-[310px] md:mt-[200px] lg:order-2 lg:h-[527px] lg:w-[515px] lg:absolute lg:right-0 lg:bottom-[20px]'>
 
         <div className='flex items-center justify-center my-4 absolute bottom-[-100px] lg:bottom-[-12px] left-1/2 -translate-x-1/2 lg:hidden'>
-        <Link to='/technologies'><li className='cursor-pointer h-[40px] w-[40px] md:h-[50px] md:w-[50px]  rounded-full bg-white text-black flex items-center m-2 justify-center'>1</li></Link>
+        <Link to='/technologies'><li className='cursor-pointer h-[40px] w-[40px] md:h-[50px] md:w-[50px] rounded-full border-2 border-gray-600 text-white hover:bg-white hover:text-[#0b0d17] hover:border-white flex items-center m-2 justify-center'>1</li></Link>
         <Link to='/spaceport'> <li className='cursor-pointer h-[40px] w-[40px] md:h-[50px] md:w-[50px] rounded-full border-2 border-gray-600 text-white hover:bg-white hover:text-[#0b0d17] hover:border-white flex items-center m-2 justify-center'>2</li></Link>
-        <Link to='/capsule'> <li className='cursor-pointer h-[40px] w-[40px] md:h-[50px] md:w-[50px] rounded-full border-2 border-gray-600 text-white hover:bg-white hover:text-[#0b0d17] hover:border-white flex items-center m-2 justify-center'>3</li></Link>
+        <Link to='/capsule'> <li className='cursor-pointer h-[40px] w-[40px] md:h-[50px] md:w-[50px]  rounded-full bg-white text-black flex items-center m-2 justify-center'>3</li></Link>
         </div>
       </div>
     
