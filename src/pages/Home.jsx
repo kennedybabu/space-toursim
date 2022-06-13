@@ -15,17 +15,14 @@ const Home = () => {
                     truly out of this world experience!.
                 </p>
             </div>
-            <div className='flex justify-center lg:items-end lg:pb-[140px] cursor-pointer'>
-                
-            <Link to='/destinations'>
-                <a className='pulse flex justify-center items-center text-black uppercase w-[150px] h-[150px] mx-auto bg-white rounded-full md:h-[242px] md:w-[242px] md:text-4xl'>
-                    explore
-                </a>
-            </Link>
-                
+            <div className='flex justify-center lg:items-end lg:pb-[140px] cursor-pointer'>                    
+                <Link to='/destinations'>
+                    <a className='pulse flex justify-center items-center text-black uppercase w-[150px] h-[150px] mx-auto bg-white rounded-full md:h-[242px] md:w-[242px] md:text-4xl'>
+                        explore
+                    </a>
+                </Link>                
             </div>
         </div>
-
     </div>
   )
 }

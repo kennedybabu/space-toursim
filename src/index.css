@@ -81,3 +81,12 @@
     background-size: cover;
     background-position: center;
 }
+
+
+
+@media (min-width: 768px) {
+    .cover {
+        background-image: url('./assets/technology/image-launch-vehicle-portrait.jpg');
+
+    }
+}
