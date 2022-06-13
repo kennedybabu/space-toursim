@@ -74,3 +74,10 @@
     background-position: center;
     background-repeat: no-repeat;
 }
+
+
+.cover {
+    background-image: url('./assets/technology/image-launch-vehicle-landscape.jpg');
+    background-size: cover;
+    background-position: center;
+}
