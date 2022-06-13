@@ -88,6 +88,12 @@
 }
 
 
+.capsule {
+    background-image:  url('./assets/technology/image-space-capsule-landscape.jpg');
+
+}
+
+
 
 @media (min-width: 768px) {
     .cover {
@@ -98,5 +104,10 @@
     .spaceport {
         background-image:  url('./assets/technology/image-spaceport-portrait.jpg');
 
+    }
+
+    .capsule {
+        background-image:  url('./assets/technology/image-space-capsule-portrait.jpg');
+    
     }
 }
