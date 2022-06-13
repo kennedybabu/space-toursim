@@ -13,7 +13,7 @@ const Technologies = () => {
         <p className='condensed text-xl uppercase absolute left-1/2 -translate-x-1/2 top-[90px] md:top-[130px] md:left-[110px] lg:left-[200px]'><span className='text-gray-400 mr-4'>03</span>Space launch 101</p>
         <div className='relative w-full h-[170px] mt-[160px] cover md:h-[310px] md:mt-[200px] lg:order-2 lg:h-[527px] lg:w-[515px] lg:absolute lg:right-0 lg:bottom-[20px]'>
 
-          <div className='flex items-center justify-center my-4 absolute bottom-[-100px] left-1/2 -translate-x-1/2 lg:hidden'>
+          <div className='flex items-center justify-center my-4 absolute bottom-[-100px] md:bottom-[-12px] left-1/2 -translate-x-1/2 lg:hidden'>
               <li className='cursor-pointer h-[40px] w-[40px] md:h-[50px] md:w-[50px]  rounded-full bg-white text-black flex items-center m-2 justify-center'><Link to='/technologies'>1</Link></li>
               <li className='cursor-pointer h-[40px] w-[40px] md:h-[50px] md:w-[50px] rounded-full border-2 border-gray-600 text-white hover:bg-white hover:text-[#0b0d17] hover:border-white flex items-center m-2 justify-center'>2</li>
               <li className='cursor-pointer h-[40px] w-[40px] md:h-[50px] md:w-[50px] rounded-full border-2 border-gray-600 text-white hover:bg-white hover:text-[#0b0d17] hover:border-white flex items-center m-2 justify-center'>3</li>
@@ -24,6 +24,13 @@ const Technologies = () => {
           <p className='condensed uppercase text-[#d0d6f9] md:mt-4 md:text-xl tracking-widest'>The terminology...</p>
           <h1 className='text-3xl uppercase md:my-2 md:text-4xl tracking-widest lg:py-4'>{tech.name}</h1>
           <p className='condensed tracking-wide text-[#d0d6f9] md:max-w-[470px] mx-auto md:text-xl lg:ml-0'>{tech.description}</p>
+        </div>
+
+
+        <div className='flex items-center justify-center my-4 absolute  left-[4%] top-[36%] flex-col'>
+              <li className='cursor-pointer h-[80px] w-[80px] rounded-full bg-white text-black flex items-center m-2 justify-center'><Link to='/technologies'>1</Link></li>
+              <li className='cursor-pointer h-[80px] w-[80px] rounded-full border-2 border-gray-600 text-white hover:bg-white hover:text-[#0b0d17] hover:border-white flex items-center m-2 justify-center'>2</li>
+              <li className='cursor-pointer h-[80px] w-[80px] rounded-full border-2 border-gray-600 text-white hover:bg-white hover:text-[#0b0d17] hover:border-white flex items-center m-2 justify-center'>3</li>
         </div>
       </div>
 
