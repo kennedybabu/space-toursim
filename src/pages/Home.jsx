@@ -17,9 +17,11 @@ const Home = () => {
             </div>
             <div className='flex justify-center lg:items-end lg:pb-[140px] cursor-pointer'>
                 
-                    <li className='pulse flex justify-center items-center text-black uppercase w-[150px] h-[150px] mx-auto bg-white rounded-full md:h-[242px] md:w-[242px] md:text-4xl'>
-                        <Link to='/destinations'><a href="#">explore</a></Link>
-                    </li>
+            <Link to='/destinations'>
+                <a className='pulse flex justify-center items-center text-black uppercase w-[150px] h-[150px] mx-auto bg-white rounded-full md:h-[242px] md:w-[242px] md:text-4xl'>
+                    explore
+                </a>
+            </Link>
                 
             </div>
         </div>
