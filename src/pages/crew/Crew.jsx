@@ -1,6 +1,6 @@
 import React from 'react'
 import {data} from '../../components/data/data'
-import { Link } from 'react-router-dom'
+// import { Link } from 'react-router-dom'
 
 
 
@@ -26,16 +26,16 @@ const Crew = () => {
             <div className='w-full text-center lg:text-start px-[23px] lg:pl-[143px] md:order-1 md:flex md:items-center md:justify-end md:flex-col md:mt-[180px] lg:justify-center lg:items-start'>
                 <div className='flex text-[#d0d6f9] uppercase md:mb-8'>                   
                     <div className='hidden md:flex'>
-                        <li className='hover:underline underline-offset-[10px] decoration-[3px] pl-0'><Link to='/crew'>Commander</Link></li>
+                        {/* <li className='hover:underline underline-offset-[10px] decoration-[3px] pl-0'><Link to='/crew'>Commander</Link></li>
                         <li className='hover:underline underline-offset-[10px] decoration-[3px]'><Link to='/specialist'>Mission Specialist</Link></li>
                         <li className='hover:underline underline-offset-[10px] decoration-[3px]'><Link to='/pilot'>Pilot</Link></li>
-                        <li className='hover:underline underline-offset-[10px] decoration-[3px]'><Link to='/engineer'>Flight Engineer</Link></li>
+                        <li className='hover:underline underline-offset-[10px] decoration-[3px]'><Link to='/engineer'>Flight Engineer</Link></li> */}
                     </div>
                     <div className='flex items-center justify-center w-full md:hidden condensed'>
-                        <li><Link to='/crew'>01</Link></li>
+                        {/* <li><Link to='/crew'>01</Link></li>
                         <li><Link to='/specialist'>02</Link></li>
                         <li><Link to='/pilot'>03</Link></li>
-                        <li><Link to='/engineer'>04</Link></li>
+                        <li><Link to='/engineer'>04</Link></li> */}
                     </div>
                 </div>
                 <p className='uppercase text-gray-400 md:text-2xl'>{personnel.role}</p>
