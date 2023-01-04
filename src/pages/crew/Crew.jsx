@@ -1,6 +1,6 @@
 import React from 'react'
 import {data} from '../../components/data/data'
-// import { Link } from 'react-router-dom'
+import { Link } from 'react-router-dom'
 
 
 
@@ -17,7 +17,7 @@ const Crew = () => {
             <p className='absolute top-[85px] md:top-[140px] left-1/2 -translate-x-1/2 text-xl condensed uppercase tracking-[2px] md:left-[120px] lg:left-[230px]'><span className='text-gray-400'>02</span> meet your crew</p>
             <div className='flex flex-col justify-end w-full items-center md:order-2 lg:order-2'>
               <div className='h-[223px] w-[327px] md:h-[572px] md:w-[456px] mx-auto lg:h-[598px] lg:w-[468px]'>
-                <img className='h-full w-auto  md:w-full mx-auto lg:w-auto lg:mt-[20px]'  src={require('../../assets/crew/image-douglas-hurley.png')} alt="commander picture" />
+                <img className='h-full w-auto  md:w-full mx-auto lg:w-auto lg:mt-[20px]'  src={require('../../assets/crew/image-douglas-hurley.png')} alt="/" />
               </div>
               <div>
                   <hr />
@@ -32,10 +32,10 @@ const Crew = () => {
                         <li className='hover:underline underline-offset-[10px] decoration-[3px]'><Link to='/engineer'>Flight Engineer</Link></li> */}
                     </div>
                     <div className='flex items-center justify-center w-full md:hidden condensed'>
-                        {/* <li><Link to='/crew'>01</Link></li>
+                        <li><Link to='/crew'>01</Link></li>
                         <li><Link to='/specialist'>02</Link></li>
                         <li><Link to='/pilot'>03</Link></li>
-                        <li><Link to='/engineer'>04</Link></li> */}
+                        <li><Link to='/engineer'>04</Link></li>
                     </div>
                 </div>
                 <p className='uppercase text-gray-400 md:text-2xl'>{personnel.role}</p>
