@@ -1,14 +1,18 @@
-import React, { useEffect, useState } from 'react'
+import React from 'react'
 import {data} from '../components/data/data'
-import { Link } from 'react-router-dom'
+import { NavLink } from 'react-router-dom'
 
 const Destinations = () => {
-    // store data from json file
+    // get data from json file
     const destinations = data.destinations
+    
+    const destination = destinations[0]    
 
-    // get a destination
-    // const destination = destinations[Math.floor(Math.random() * destinations.length)]
-    const destination =destinations[0]    
+    const activeLinkStyle = {
+        textDecoration: 'underline',
+        textUnderlineOffset : '10px',
+        textDecorationThickness: '3px'
+    }
  
   return (
    
@@ -23,10 +27,10 @@ const Destinations = () => {
             </div>
             <div className='h-full flex justify-end  lg:pb-[118px] items-center lg:items-start flex-col md:pb-[62px] lg:h-[445px] lg:absolute lg:right-[162px] lg:bottom-0 lg:justify-between'>
                 <div className='flex text-[#d0d6f9] uppercase'>                   
-                    <li className='hover:underline underline-offset-[10px] decoration-[3px] pl-0'><Link to='/destinations'>Moon</Link></li>
-                    <li className='hover:underline underline-offset-[10px] decoration-[3px]'><Link to='/mars'>Mars</Link></li>
-                    <li className='hover:underline underline-offset-[10px] decoration-[3px]'><Link to='/europa'>Europa</Link></li>
-                    <li className='hover:underline underline-offset-[10px] decoration-[3px]'><Link to='/titan'>Titan</Link></li>
+                    <NavLink to='/destinations'  style={({isActive}) => isActive ? activeLinkStyle: undefined} className='hover:underline underline-offset-[10px] decoration-[3px] pl-0 mx-4'>Moon</NavLink>
+                    <NavLink to='/mars' style={({isActive}) => isActive ? activeLinkStyle: undefined} className='hover:underline underline-offset-[10px] decoration-[3px] mx-4'>Mars</NavLink>
+                    <NavLink to='/europa' style={({isActive}) => isActive ? activeLinkStyle: undefined} className='hover:underline underline-offset-[10px] decoration-[3px] mx-4'>Europa</NavLink>
+                    <NavLink to='/titan' style={({isActive}) => isActive ? activeLinkStyle: undefined} className='hover:underline underline-offset-[10px] decoration-[3px] mx-4'>Titan</NavLink>
                 </div>
                 <h1 className='text-[50px] uppercase'>{destination.name}</h1>
                 <p className='text-center lg:text-left text-[#d0d6f9] lg:max-w-[472px]'>{destination.description}</p>
